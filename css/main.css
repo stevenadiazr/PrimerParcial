@@ -72,7 +72,7 @@ p{
 }
 
 .big-hero p {
-    font-size: 0.7em;;
+    font-size: 0.9rem;;
     color: #D7DEE6;
 
 }
@@ -84,8 +84,12 @@ p{
     margin-top: 3em;
     display: flex;
     flex-direction: row;
-    justify-content: center
+    justify-content: center;
+    margin-bottom: 3rem; 
+}
 
+div.container.post{
+    margin: 0px 1em;
 }
 
 .social-links li a{
@@ -94,21 +98,30 @@ p{
     font-size: 2.5em;
 }
 
-header.header .social-links{
-    padding: 0;
+section.big-hero .social-links{
+    padding: 1rem 0rem 0rem 0rem;
     margin-top: -3rem;
+    margin-bottom: 3rem;
+}
+
+i.fa-bars{
+    padding: 0.2rem;
+}
+
+header.header img{
+    margin: 1rem;
 }
 
 ul#menu li a:hover{
     color: red;
 }
 
-.fab{
-    font-size: 100px; 
+.social-links .fab{
+    font-size: 5rem; 
     margin: 10px;
 }
 
-.fas{
+.social-links .fas{
     font-size: 100px;
     margin: 10px;
 }
@@ -195,6 +208,10 @@ ul#menu li a:hover{
    width: 200px;
 }
 
+.about div.container{
+    padding: 0 1.5rem 3rem;
+}
+
 .bio-info p{
     font-size: 16px;
     padding: 2em;
@@ -226,6 +243,7 @@ ul#menu li a:hover{
     font-size: 1em;
     width: 100%;
 }
+
 
 /* Decorando placeholder */
 

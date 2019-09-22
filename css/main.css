@@ -272,7 +272,7 @@ footer{
 }
 
 footer .social-links {
-    margin: 0;
+    height: 2rem;
 }
 
 .menu {
@@ -375,6 +375,7 @@ div.contact{
         grid-auto-flow: dense;
         margin-top: -2rem;
         padding: 0 1.5rem 3rem;
+        margin-bottom: -3rem;
     }
 
     div.container h2{
@@ -389,6 +390,18 @@ div.contact{
         margin: 0 -1rem;
     }
 
+    .big-hero div.container{
+        margin-bottom: 3rem;
+    }
+
+    .about div.container{
+        margin-bottom: 0rem;
+    }
+
+    footer .social-links .fab{
+        margin: 0 1rem;
+    }
+
     /*TODO: FALTA CSS */
 } 
 
@@ -396,7 +409,21 @@ div.contact{
 
        /*TODO: FALTA CSS */
 
+    .big-hero div.container img{
+        margin-top: 4rem;
+        margin-bottom: -1rem;
+    }
 
+    .big-hero{
+        margin-bottom: 2rem;
+    }
+
+    section.about {
+        grid-auto-columns: minmax(1fr, 1fr) 5rem minmax(1fr, 1fr);
+        grid-auto-flow: row;
+        margin: 2rem 3rem -3rem;
+        padding: 1rem 1rem 1rem;
+    }
 
 }
 
